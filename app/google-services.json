@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207073525343",
+    "firebase_url": "https://sandese-52176.firebaseio.com",
+    "project_id": "sandese-52176",
+    "storage_bucket": "sandese-52176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207073525343:android:4a558d291a7af994",
+        "android_client_info": {
+          "package_name": "com.coded.chatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207073525343-085o0n4kddk2avt7stnma79i04if78je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coded.chatApp",
+            "certificate_hash": "7f88dcfd1adcf6f491ff8b8d27b9001aa2740715"
+          }
+        },
+        {
+          "client_id": "207073525343-55era57964cq540684e8275k5lfe304l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDYpY7EkASlmCFjFsLIE1PyNf18UV_90U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207073525343-55era57964cq540684e8275k5lfe304l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
