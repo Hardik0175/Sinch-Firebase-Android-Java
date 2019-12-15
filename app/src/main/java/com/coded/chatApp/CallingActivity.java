@@ -191,6 +191,7 @@ public class CallingActivity extends BaseActivity {
             call = sinchClient.getCallClient().callUser(userid);
             call.addCallListener(sinchCallListener);
             thread.start();
+
         }
     }
 
