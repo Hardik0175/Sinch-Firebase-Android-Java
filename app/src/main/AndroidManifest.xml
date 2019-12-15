@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.coded.chatApp">
+    package="com.hardik.chatApp">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
-        android:name=".AppController"
+        android:name="com.hardik.chatApp.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,15 +26,15 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".SinchCall.IncAudioActivity" />
-        <activity android:name=".SinchCall.IncCallActivity" />
-        <activity android:name=".CallingActivityVideo" />
-        <activity android:name=".CallingActivity" />
-        <activity android:name=".MessageActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".StartActivity">
+        <activity android:name="com.hardik.chatApp.SinchCall.IncAudioActivity" />
+        <activity android:name="com.hardik.chatApp.SinchCall.IncCallActivity" />
+        <activity android:name="com.hardik.chatApp.CallingActivityVideo" />
+        <activity android:name="com.hardik.chatApp.CallingActivity" />
+        <activity android:name="com.hardik.chatApp.MessageActivity" />
+        <activity android:name="com.hardik.chatApp.RegisterActivity" />
+        <activity android:name="com.hardik.chatApp.LoginActivity" />
+        <activity android:name="com.hardik.chatApp.MainActivity" />
+        <activity android:name="com.hardik.chatApp.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,9 +42,9 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".SinchCall.SinchService" />
+        <service android:name="com.hardik.chatApp.SinchCall.SinchService" />
         <service
-            android:name=".Notifications.MyFirebaseIdService"
+            android:name="com.hardik.chatApp.Notifications.MyFirebaseIdService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -52,7 +52,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".Notifications.MyFirebaseMessaging"
+            android:name="com.hardik.chatApp.Notifications.MyFirebaseMessaging"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -60,7 +60,7 @@
             </intent-filter>
         </service>
 
-        <service android:name=".Services.LocationService" />
+        <service android:name="com.hardik.chatApp.Services.LocationService" />
     </application>
 
 </manifest>
